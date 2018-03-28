@@ -33,3 +33,11 @@ class User:
 # define user_name, age, rating
 user_1 = User('Mr. ujjwal', 20, 3.8)
 user_2 = User('Mr. Ujjwal', 21, 2.6)
+
+# details of some existing friends
+friend_one = User('vivek', 'Mr.', 24, 4.5)
+friend_two = User('Jay', 'Ms.', 28, 3.1)
+friend_three = User('Shivam', 'Mr.', 26, 3.6)
+
+# lists of friends
+friends = [friend_one, friend_two, friend_three]
